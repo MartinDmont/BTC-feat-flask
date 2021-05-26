@@ -4,7 +4,7 @@
 Cette application web est faite avec le framework Flask pour python.
 Elle utilise une API pour prendre le prix du bitcoin et l'affiche sur un template.
 
-## Module
+## Modules
 ```python
 import requests
 ```
