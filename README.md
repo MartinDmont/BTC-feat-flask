@@ -1,4 +1,4 @@
-# BTC-feat-flask :v:
+# Flask-feat-BTC :v:
 # Appli web Flask pour prix Bitcoin
 
 Cette application web est faite avec le framework Flask pour python.
