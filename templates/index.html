@@ -12,7 +12,7 @@
     </div>
     <div class="content">
         <div class="price">
-            {{ datas['last'] }}<small>{{ datas['symbol'] }}</small>
+            <span id="num">{{ datas['last'] }}</span><small>{{ datas['symbol'] }}</small>
             <p class="plus">{{ plus }}</p>
         </div>
         <div class="time">
@@ -65,6 +65,9 @@
 <script>
     document.getElementById('show_more').addEventListener('click', view)
 
+    var num = document.getElementById('num')
+    num.textContent = Number(num.textContent).toLocaleString()
+
     function view(){
         document.getElementById('most-import').style.display = 'none'
         document.getElementById('all-dev').style.display = 'block'
@@ -78,6 +81,10 @@
 
     .all-dev{
         display: none;
+    }
+
+    #num{
+        letter-spacing: 0.5rem;
     }
 
     .devises-list{
