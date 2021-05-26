@@ -26,4 +26,5 @@ def single_devise(dev):
         return render_template("index.html", datas = res, time = "Error")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    # app.run(debug=True) si vous voulez mettre en debogage
+    app.run()
