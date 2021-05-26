@@ -19,5 +19,5 @@ import flask
 
 ## Remerciments
 
-Aucuns remerciments nécéssaires pour ce mini-projet mais fait avec passion :heart:
+Merci à Chloé pour son aide sur le design, ça fait plaisir. :black_nib::triangular_ruler:
 
