@@ -15,9 +15,3 @@ import flask
 
 ## API
 [API blockchain](https://blockchain.info/ticker?base=BTC)
-
-
-## Remerciments
-
-Merci à Chloé pour son aide sur le design, ça fait plaisir. :black_nib::triangular_ruler:
-
