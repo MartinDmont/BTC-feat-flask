@@ -15,3 +15,7 @@ import flask
 
 ## API
 [API blockchain](https://blockchain.info/ticker?base=BTC)
+
+## Participation
+
+Chloé pour le design et la forme du site.
